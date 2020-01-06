@@ -40,14 +40,6 @@ public class PasswordChecker {
         }
     }
 
-    boolean passwordIsOk() {
-
-        boolean results = true;
-        if (counter < 3) {
-            results = false;
-        }
-        return results;
-    }
     boolean doesDasswordExist(String password) {
         boolean results = true;
         if (password.length() < 1) {
