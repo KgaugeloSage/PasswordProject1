@@ -14,7 +14,7 @@ class PasswordCheckerTest {
 
     @Test
     void passwordIsOk() {
-        String password = "Bello@10111";
+        String password = "Bello@";
         passwordCheckerTest.passwordIsValid(password);
         assertTrue(passwordCheckerTest.passwordIsOk());
     }
